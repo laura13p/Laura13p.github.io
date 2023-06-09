@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&family=Catamaran:wght@500&family=Lobster&family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cbc803b2a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+
+
+
+    <link rel="stylesheet" href="estilos_mapa.css">
+
+
+    <title>Campus UAEMEX</title>
+   
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Campus Universitarios</h1>
+            <select name = "select-campus" id = "select-campus" >
+                <option value="-1">Selecciona el campus</option>
+                <option value="19.131843400853505, -98.78647380376981">Centro Universitario Amecameca</option>
+                <option value="19.59820585984898, -99.05748659026646">Centro Universitario Ecatepec</option>
+                <option value="19.045028508096912, -100.05185269027572">Centro Universitario Temascaltepec</option>
+                <option value="19.434865012206004, -98.91751264308189">Centro Universitario Texcoco</option>
+                <option value="18.96832153270859, -99.61239104373269">Centro Universitario Tenancingo</option>
+                <option value="19.42220527324418, -98.98857285471155">Centro Universitario  Chimalhuacan</option>
+                <option value="19.585477123664322, -99.28349605896538">Centro Universitario Valle de Bravo</option>
+                <option value="19.530338836056487, -99.08992450688717">Unidad Académica Profesional de Tlalnepantla</option>
+                <option value="19.828224499259644, -99.07686218234808">Centro Universitario Zumpango</option>
+                <option value="19.285146597177057, -99.67792612174387">Ciudad Univercitaria Toluca</option>
+        
+            </select>
+
+        </div>
+       
+    </header>
+
+    <div id="map"></div>
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+    <script src="scrip_mapa.js"></script>
+
+    <footer>
+    
+        <div>
+            
+            <div class="footer">
+                <p>Diseño y visualizacion de la informacion 6I 2023A</p>
+                
+                <a href="https://www.youtube.com/channel/UCe8Se89aeErlTzKnwhFkOtQ" style="color: aliceblue;"><i class="fa-brands fa-facebook"></i></a>
+                <p>UAEMéx</p>
+
+                <a href="https://www.instagram.com/uaemex_oficial/" target="_blank" style="color: aliceblue;"><i class="fa-brands fa-instagram"></i></a>
+                <p>uaemex_oficial</p>
+
+                <i class="fa-solid fa-envelope"></i>
+                <p>rectoria@uaemex.mx</p>
+                <a href="https://twitter.com/UAEM_MX "target = _blank style="color: aliceblue;"><i class= "fab fa-twitter"></i></a>
+                <p>@uaemex_oficial</p>
+                <a href="https://www.youtube.com/channel/UCe8Se89aeErlTzKnwhFkOtQ" style="color: aliceblue;" ><i class= "fab fa-youtube"></i></a>
+                <p>UAEMéx TV</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+
