@@ -1,0 +1,186 @@
+/*Familia de fuentes:   04. eBook: Libre Baskerville font*/
+/*Paleta de colores:    https://colorhunt.co/palette/edf1d69dc08b60996640513b */
+
+/*
+#map{
+    height: 130vh;
+    width: 100vw;
+    
+   
+    
+
+}
+*/
+body{
+    /* Asignando una famila de fuentes para nuestro texto*/
+    font-family: 'Montserrat', sans-serif;
+    /*Asignando el color de nuestro texto*/
+    color:#40513B;
+    /*Asignando el tamaño de letra con REM que es el elemento raiz*/
+    font-size: 1.2rem;
+    /*Internileado entre las palabras*/
+    line-height: 1.6em;
+    margin: 0;
+    
+    display: grid;
+    grid-template-columns: auto 0px; 
+    
+    }
+    
+    h1{
+        font-size: 2rem;/*valor relativo a la raiz*/
+        line-height: 1.3em;/*valor de acuerdo al tamaño x default*/
+    }
+    
+    p{
+        margin-bottom: 1.6rem;
+    }
+    
+    .container{
+        /*Ancho del elemento con el navegador*/
+    
+        width: 85%;/*Se extiende 85% del naveghador*/
+        max-width: 850px;/*El ancho maximo de pixeles*/
+        
+        margin: 0 auto;/*Margen de los elementos de 0 arriba y abajo y automaticamente a los lados*/
+    }
+    .mapa2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header{
+        background: #609966;
+        color: #EDF1D6;
+        padding: 2rem 0;/*agregando relleno*/
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 20px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*Sombras*/
+        box-shadow: 5px 5px 15px gray;
+        padding: 20px;
+        
+        margin: 0 auto;/*Margen de los elementos de 0 arriba y abajo y automaticamente a los lados*/
+        
+
+        
+
+    }
+    
+    .fa-map-pin{
+        letter-spacing: 10px;/*Ampliar el espacio entre las letras del logo*/
+        font-size: 2.4em;/*Cambiar tamaño de la letra*/
+        padding: 2.4rem;  
+    }
+    
+   
+    
+    
+    .main{
+        padding-top: 15rem;
+    }
+    
+    
+    .top {
+        --offset: 50px; 
+        
+        position: sticky;
+        bottom: 20px;      
+        margin-right:10px; 
+        place-self: end;
+        margin-top: calc(100vh + var(--offset));
+        
+        /* visual styling */
+        width:45px;
+        aspect-ratio:1;
+        background:#9DC08B;
+        border-radius:10px;
+      }
+      .top:before {
+        content:"";
+        position:absolute;
+        inset:30%;
+        transform:translateY(20%) rotate(-45deg);
+        border-top:5px solid #fff;
+        border-right:5px solid #fff;
+      }
+
+    .boton-mapillary{  
+        display: flex;
+        justify-content: center;
+
+    }
+        .boton-mapillary a{
+     
+        margin-top: 50px;
+        border: 3px solid #17594a;
+        background-color: #609966;
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 30px;
+        width: 250px;
+        height: 10vh;
+        box-shadow: 5px 5px 15px gray;
+        text-align: center;
+        
+        }    
+
+            .boton-mapillary a:hover{
+        
+            transform: translateY(-15px);
+            }
+    
+    
+    html,
+      body {
+        scroll-behavior: smooth;
+      }
+
+   
+    
+    .footer{
+        background: #609966;
+        text-align: center;
+        left: 0;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        /*Sombras*/
+        box-shadow: 5px 5px 15px gray;
+        padding: 20px;
+        margin: 10px;
+    }
+    .iconos ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .iconos ul{
+            display: inline-block;
+        }
+            .iconos ul li a{
+                display: block;
+                padding: 1 rem 1rem;
+                transition: all 0.4s linear;
+                border-radius: 8px;
+            }
+                .iconos ul li a:hover{
+                    background: #17594a;
+                }
+            
+            .iconos ul{
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+            }
+            
